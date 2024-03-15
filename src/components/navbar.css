@@ -1,0 +1,10 @@
+/* @import "bootstrap/dist/css/bootstrap.css"; */
+.navbar{
+    background-color: #003580;
+    color: white;
+}
+
+.navcontainer{
+    color: white ;
+    background-color: #ff0000;
+}
