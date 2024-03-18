@@ -1,10 +1,28 @@
 /* @import "bootstrap/dist/css/bootstrap.css"; */
 .navbar{
     background-color: #003580;
-    color: white;
 }
 
-.navcontainer{
-    color: white ;
-    background-color: #ff0000;
+.navbar-nav>a{
+    color: white;
+    font-weight: 400;
 }
+.navbar-nav>a:hover{
+    color: rgb(253, 174, 55);
+}
+.navbar-nav > .active{
+    color: rgb(253, 174, 55) !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: bold;
+    font-size: 28px;
+}
+.navbar-brand:hover{
+    color: rgb(253, 174, 55);
+}
+
+.headerButton > button{
+    margin: 0px 5px 0px 5px;
+}
+
